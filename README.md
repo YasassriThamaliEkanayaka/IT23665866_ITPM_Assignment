@@ -1,50 +1,63 @@
-ITPM Assignment 1 - IT23665866
-Project Description
-This project is for the IT3040 - ITPM module assignment. I have automated the testing of the SwiftTranslator website (Singlish to Sinhala) using Playwright.
-+4
+# IT23665866_ITPM_Assignment
 
-The goal is to check if the system converts Singlish to Sinhala correctly and to find any errors in the conversion.
-+2
+![Node.js](https://img.shields.io/badge/Node.js-v16+-brightgreen) ![Playwright](https://img.shields.io/badge/Playwright-1.38-blue) ![Module](https://img.shields.io/badge/Module-IT3040--ITPM-orange)
 
-What I have tested:
-I have identified and automated 35 test cases in total:
-+4
+[cite_start]Automated **Playwright** test suite for **IT3040 ITPM** that evaluates the **accuracy of SwiftTranslator** in translating **Singlish to Sinhala**[cite: 11, 13]. 
 
+[cite_start]The primary objective is to evaluate the system's transliteration accuracy, UI stability, and robustness under diverse conditions[cite: 11].
 
-24 Positive Tests: Checking if common sentences and greetings are translated correctly .
-+2
+### 🧪 Test Suite Overview
+The suite validates **35 distinct scenarios**:
+* [cite_start]**24 Positive Functional Tests** – Correct transliteration for daily language, formal requests, and complex sentences [cite: 27, 421-457].
+* [cite_start]**10 Negative Functional Tests** – Robustness tests targeting technical brand names, URLs, and joined word variations [cite: 27, 458-473].
+* [cite_start]**1 UI Test** – Verification of real-time output updates without manual conversion triggers [cite: 66, 474-476].
 
+---
 
-10 Negative Tests: Checking where the system fails, like with English brand names (iPhone, MacBook) or URLs .
-+1
+<details>
+<summary>📋 Prerequisites</summary>
 
+Before running the tests, ensure you have the following installed:
+- **Node.js** (v16 or higher recommended)
+- **npm** (comes with Node.js)
+</details>
 
-1 UI Test: Checking if the output updates automatically while typing without clicking a button .
-+1
+<details>
+<summary>⚙️ Installation</summary>
 
-How to Install the Project
-Follow these steps to set up the project on your computer:
+1. **Clone the Repository**
+   ```bash
+   git clone [https://github.com/YasassriThamaliEkanayaka/IT23665866_ITPM_Assignment.git](https://github.com/YasassriThamaliEkanayaka/IT23665866_ITPM_Assignment.git)
+Navigate to the Project Directory
 
-Clone the repository from GitHub using my link:
-https://github.com/YasassriThamaliEkanayaka/IT23665866_ITPM_Assignment.git
-
-Open the project folder in your terminal or VS Code.
-
-Install the dependencies by typing this command:
+Bash
+cd IT23665866_ITPM_Assignment
+Install Dependencies
+Installs Playwright and all required testing libraries:
 
 Bash
 npm install
-Install the browsers needed for testing:
+Install Playwright Browsers
+Installs Chromium, Firefox, and WebKit engines:
 
 Bash
 npx playwright install
-How to Run the Tests
-Once everything is installed, you can run all the tests by typing:
+</details>
+
+<details>
+<summary>▶️ Running the Tests</summary>
+
+To execute all 35 automated test cases against the live system:
 
 Bash
 npx playwright test
-How to View the Results
-To see a detailed report of which tests passed or failed, type:
+</details>
+
+<details>
+<summary>📊 Viewing the Test Report</summary>
+
+After execution, view a detailed HTML report providing a breakdown of each scenario:
 
 Bash
 npx playwright show-report
+</details>
