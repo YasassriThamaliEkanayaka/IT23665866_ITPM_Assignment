@@ -18,3 +18,6 @@ Before running the tests, ensure the following are installed on your machine:
 1. **Clone the Repository**  
 ```bash
 git clone https://github.com/YasassriThamaliEkanayaka/IT23665866_ITPM_Assignment.git
+
+2. **Navigate to the Project Directory**
+cd IT23665866_ITPM_Assignment
