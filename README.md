@@ -21,6 +21,7 @@ The suite validates 35 distinct scenarios:
 
 
 **📋 Prerequisites**
+
 Before running the tests, ensure you have the following installed:
 
 
