@@ -45,7 +45,7 @@ npx playwright install
 </details>
 
 <details>
-<summary>▶️ Running the Tests</summary>
+<summary> Running the Tests</summary>
 
 To execute all 35 automated test cases against the live system:
 
@@ -54,7 +54,7 @@ npx playwright test
 </details>
 
 <details>
-<summary>📊 Viewing the Test Report</summary>
+<summary> Viewing the Test Report</summary>
 
 After execution, view a detailed HTML report providing a breakdown of each scenario:
 
