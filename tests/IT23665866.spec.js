@@ -105,3 +105,26 @@ test('Pos_UI_0001: Real-time update check', async ({ page }) => {
   
   console.log('UI Test Passed: Output updated in real-time');
 });
+
+
+
+
+// --- Case 35: Negative UI Test for line break preservation failure ---
+test('Neg_UI_0035: UI not preserving line breaks during live input', async ({ page }) => {
+  await page.goto('https://www.swifttranslator.com/');
+  const input = page.locator(INPUT_SELECTOR);
+  const output = page.locator(OUTPUT_SELECTOR);
+
+  // Simulating multi-line input to test formatting preservation
+  const multilineInput = "line one\nline two";
+  
+  await input.click();
+  await input.pressSequentially(multilineInput, { delay: 30 });
+  
+  const actualText = await output.innerText();
+  
+  // As observed in Excel, system fails to keep the break in real-time UI
+  expect(actualText).not.toContain('\n'); 
+  
+  console.log('Neg_UI_0035 Passed: Confirmed UI failure in line break preservation.');
+});
