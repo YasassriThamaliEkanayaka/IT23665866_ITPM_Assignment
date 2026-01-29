@@ -5,14 +5,13 @@ Automated **Playwright** test suite for **IT3040 ITPM** that evaluates the **acc
 - **10 Negative Functional Tests** – test robustness with technical terms, URLs, and mixed content.  
 - **1 UI Test** – ensures real-time output updates for reliability.  
 
----
+
 
 ## Prerequisites
 Before running the tests, ensure the following are installed on your machine:  
 - **Node.js** (v16 or higher recommended)  
 - **npm** (comes with Node.js)  
 
----
 
 ## Installation
 
