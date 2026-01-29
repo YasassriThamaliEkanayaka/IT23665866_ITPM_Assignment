@@ -31,6 +31,7 @@ Node.js (v16 or higher recommended).
 npm (comes with Node.js).
 
 **⚙️ Installation**
+
 Clone the Repository : Bash git clone https://github.com/YasassriThamaliEkanayaka/IT23665866_ITPM_Assignment.git
 
 Navigate to the Project Directory : Bash cd IT23665866_ITPM_Assignment
@@ -41,11 +42,14 @@ Navigate to the Project Directory : Bash cd IT23665866_ITPM_Assignment
 Installs Playwright and all required testing libraries : Bash npm install
 
 **Install Playwright Browsers**
+
     Installs Chromium, Firefox, and WebKit engines : Bash npx playwright install
 
 **▶️ Running the Tests**
+
 To execute all 35 automated test cases against the live system : Bash npx playwright test
 
 **📊 Viewing the Test Report**
+
 After execution, view a detailed HTML report providing a breakdown of each scenario : Bash npx playwright show-report
 
