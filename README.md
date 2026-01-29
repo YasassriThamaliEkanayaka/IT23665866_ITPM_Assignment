@@ -33,7 +33,10 @@ Clone the Repository : Bash git clone https://github.com/YasassriThamaliEkanayak
 
 Navigate to the Project Directory : Bash cd IT23665866_ITPM_Assignment
 
-Install Dependencies : Installs Playwright and all required testing libraries : Bash npm install
+
+**Install Dependencies**
+
+Installs Playwright and all required testing libraries : Bash npm install
 
 Install Playwright Browsers
     Installs Chromium, Firefox, and WebKit engines : Bash npx playwright install
