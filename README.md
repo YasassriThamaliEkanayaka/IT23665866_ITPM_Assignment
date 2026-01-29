@@ -1,23 +1,64 @@
+n
 # IT23665866_ITPM_Assignment
 
-Automated **Playwright** test suite for **IT3040 ITPM** that evaluates the **accuracy of SwiftTranslator** in translating **Singlish to Sinhala**. The suite includes:  
-- **24 Positive Functional Tests** – verify correct transliteration for daily language, requests, and complex sentences.  
-- **10 Negative Functional Tests** – test robustness with technical terms, URLs, and mixed content.  
-- **1 UI Test** – ensures real-time output updates for reliability.  
+![Node.js](https://img.shields.io/badge/Node.js-v16+-brightgreen) ![Playwright](https://img.shields.io/badge/Playwright-1.38-blue) ![Module](https://img.shields.io/badge/Module-IT3040--ITPM-orange)
 
+[cite_start]Automated **Playwright** test suite for **IT3040 ITPM** that evaluates the **accuracy of SwiftTranslator** in translating **Singlish to Sinhala**[cite: 11, 13]. 
 
+[cite_start]The primary objective is to evaluate the system's transliteration accuracy, UI stability, and robustness under diverse conditions[cite: 11].
 
-## Prerequisites
-Before running the tests, ensure the following are installed on your machine:  
-- **Node.js** (v16 or higher recommended)  
-- **npm** (comes with Node.js)  
+### 🧪 Test Suite Overview
+The suite validates **35 distinct scenarios**:
+* [cite_start]**24 Positive Functional Tests** – Correct transliteration for daily language, formal requests, and complex sentences [cite: 27, 421-457].
+* [cite_start]**10 Negative Functional Tests** – Robustness tests targeting technical brand names, URLs, and joined word variations [cite: 27, 458-473].
+* [cite_start]**1 UI Test** – Verification of real-time output updates without manual conversion triggers [cite: 66, 474-476].
 
+---
 
-## Installation
+<details>
+<summary>📋 Prerequisites</summary>
 
-1. **Clone the Repository**  
-```bash
-git clone https://github.com/YasassriThamaliEkanayaka/IT23665866_ITPM_Assignment.git
+Before running the tests, ensure you have the following installed:
+- **Node.js** (v16 or higher recommended)
+- **npm** (comes with Node.js)
+</details>
 
-2. **Navigate to the Project Directory**
+<details>
+<summary>⚙️ Installation</summary>
+
+1. **Clone the Repository**
+   ```bash
+   git clone [https://github.com/YasassriThamaliEkanayaka/IT23665866_ITPM_Assignment.git](https://github.com/YasassriThamaliEkanayaka/IT23665866_ITPM_Assignment.git)
+Navigate to the Project Directory
+
+Bash
 cd IT23665866_ITPM_Assignment
+Install Dependencies
+Installs Playwright and all required testing libraries:
+
+Bash
+npm install
+Install Playwright Browsers
+Installs Chromium, Firefox, and WebKit engines:
+
+Bash
+npx playwright install
+</details>
+
+<details>
+<summary>▶️ Running the Tests</summary>
+
+To execute all 35 automated test cases against the live system:
+
+Bash
+npx playwright test
+</details>
+
+<details>
+<summary>📊 Viewing the Test Report</summary>
+
+After execution, view a detailed HTML report providing a breakdown of each scenario:
+
+Bash
+npx playwright show-report
+</details>
