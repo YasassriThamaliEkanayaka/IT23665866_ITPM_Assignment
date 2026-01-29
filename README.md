@@ -43,15 +43,11 @@ Installs Playwright and all required testing libraries:
 Bash
 npm install
 Install Playwright Browsers
-Installs Chromium, Firefox, and WebKit engines:
-
-Bash npx playwright install
+Installs Chromium, Firefox, and WebKit engines: Bash npx playwright install
 
 ▶️ Running the Tests
-To execute all 35 automated test cases against the live system:
-Bash npx playwright test
+To execute all 35 automated test cases against the live system: Bash npx playwright test
 
 📊 Viewing the Test Report
-After execution, view a detailed HTML report providing a breakdown of each scenario:
-Bash npx playwright show-report
+After execution, view a detailed HTML report providing a breakdown of each scenario:  Bash npx playwright show-report
 
