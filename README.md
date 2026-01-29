@@ -2,15 +2,15 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-v16+-brightgreen) ![Playwright](https://img.shields.io/badge/Playwright-1.38-blue) ![Module](https://img.shields.io/badge/Module-IT3040--ITPM-orange)
 
-[cite_start]Automated **Playwright** test suite for **IT3040 ITPM** that evaluates the **accuracy of SwiftTranslator** in translating **Singlish to Sinhala**[cite: 11, 13]. 
+Automated **Playwright** test suite for **IT3040 ITPM** that evaluates the **accuracy of SwiftTranslator** in translating **Singlish to Sinhala**. 
 
-[cite_start]The primary objective is to evaluate the system's transliteration accuracy, UI stability, and robustness under diverse conditions[cite: 11].
+The primary objective is to evaluate the system's transliteration accuracy, UI stability, and robustness under diverse conditions.
 
 ### 🧪 Test Suite Overview
 The suite validates **35 distinct scenarios**:
-* [cite_start]**24 Positive Functional Tests** – Correct transliteration for daily language, formal requests, and complex sentences [cite: 27, 421-457].
-* [cite_start]**10 Negative Functional Tests** – Robustness tests targeting technical brand names, URLs, and joined word variations [cite: 27, 458-473].
-* [cite_start]**1 UI Test** – Verification of real-time output updates without manual conversion triggers [cite: 66, 474-476].
+* **24 Positive Functional Tests** – Correct transliteration for daily language, formal requests, and complex sentences.
+* **10 Negative Functional Tests** – Robustness tests targeting technical brand names, URLs, and joined word variations.
+* **1 UI Test** – Verification of real-time output updates without manual conversion triggers.
 
 ---
 
